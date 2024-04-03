@@ -45,7 +45,7 @@ export function transformInline(originInput: string, options: OptionsType = {}) 
     return transform(originInput, {...options, renderInline: true});
 }
 
-export = transform;
+export default transform;
 
 // eslint-disable-next-line @typescript-eslint/no-namespace, no-redeclare -- backward compatibility
 namespace transform {
